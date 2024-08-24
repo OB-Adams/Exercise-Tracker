@@ -103,14 +103,17 @@ The Exercise Tracker is a web application that lets users track their exercise r
 
  #### 1. Clone the Repository:
 
+```
 git clone https://github.com/OB-Adams/Exercise-Tracker.git
 cd Exercise-Tracker
+```
 
 
  #### 2. Install Dependencies:
 
+```
 npm install
-
+```
 
  #### 3. Environment Variables:
  • Create a .env file in the root directory.
@@ -122,7 +125,9 @@ MONGO_URL=your_mongodb_connection_string
 
  #### 4. Run the Application:
 
+```
 npm start
+```
 
 The server will start on the port specified in the .env file, or default to port 3000 if not specified.
 
