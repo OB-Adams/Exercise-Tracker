@@ -119,8 +119,10 @@ npm install
  • Create a .env file in the root directory.
  • Add the following environment variables:
 
+```
 PORT=3000
 MONGO_URL=your_mongodb_connection_string
+```
 
 
  #### 4. Run the Application:
